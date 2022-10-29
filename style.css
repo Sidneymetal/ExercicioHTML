@@ -1,0 +1,52 @@
+.apresentacao {
+    width: auto;
+    height: auto;
+    display: table;
+    text-align: left;
+    background-color: rgb(245, 228, 228);
+    border-radius: 8px;
+    box-shadow: 5px;
+    font-size: large;
+    font-style: normal;   
+}
+.rotinaDiaria {
+    width: 400px;
+    height: 300px;
+    display: table;
+    text-align: left;
+    background-color: rgb(202, 192, 192);
+    border-radius: 8px;
+    box-shadow: 5px;   
+}
+.hobbies {
+    width: 300px;
+    height: 100px;
+    display: table;
+    text-align: left;
+    background-color: rgb(151, 142, 142);
+    border-radius: 8px;
+    box-shadow: 5px;
+}
+.bandasFavoritas {
+    width: 400px;
+    height: 300px;
+    display: table;
+    text-align: left;
+    background-color: rgb(118, 110, 110);
+    border-radius: 8px;
+    box-shadow: 5px;
+}
+
+.viagem {
+    width: auto;
+    height: auto;
+    display: table;
+    text-align: left;
+    background-color: rgb(87, 78, 78);
+    border-radius: 8px;
+    box-shadow: 5px;
+}
+
+button {
+    background-color: rgba(204, 216, 230, 0.876);
+}

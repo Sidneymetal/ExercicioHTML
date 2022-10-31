@@ -1,0 +1,120 @@
+.apresentacao {
+    font-family:Arial, Helvetica, sans-serif;    
+    display: flex;
+    flex-direction:inherit;
+    justify-content: center;
+    background-color: chocolate; 
+    margin: 10px 2% 10px 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.separacao1 {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center; 
+}
+.nome {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;       
+    margin: 10px 2% 10px 0px;
+    background-color: rgb(228, 101, 63);
+    border-radius: 8px;
+}
+.nascimento {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;       
+    margin: 10px 2% 10px 0px;
+    background-color: rgb(228, 101, 63);
+    border-radius: 8px;
+}
+
+.separacao2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.idade {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;       
+    margin: 10px 2% 10px 0px;
+    background-color: rgb(228, 101, 63);
+    border-radius: 8px;
+}
+.cursando {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;       
+    margin: 10px 2% 10px 0px;
+    background-color: rgb(228, 101, 63);
+    border-radius: 8px;
+}
+
+.atualizacao {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;       
+    margin: 10px 2% 10px 0px;
+    background-color: rgb(228, 101, 63);
+    border-radius: 8px;
+}
+
+.separar1{
+    display: flex;
+    flex-direction:inherit;
+    justify-content: center;
+}
+.rotinaDiaria{
+    height: 450px;
+    width: 650px;      
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgba(232, 62, 161, 0.839);
+    margin: 10px 2% 10px 0px;    
+}
+.hobbies {
+    height: 450px;
+    width: 650px;  
+    margin: 20px 2% 20px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color:rgba(243, 228, 26, 0.899);   
+}
+
+.separar2{
+    display: flex;
+    flex-direction:inherit;
+    justify-content: center;
+}
+.bandasFavoritas {
+    height: 550px;
+    width: 700px;     
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgba(68, 39, 173, 0.368);
+    margin: 10px 2% 10px 0px;   
+}
+.viagem {
+    height: 350px;
+    width: 450px;      
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color:rgba(238, 45, 15, 0.257);    
+    margin: 10px 2% 10px 0px;
+}
+
+button {
+    background-color: rgba(204, 216, 230, 0.876);
+}
+
+body {
+    display: auto;
+    margin: 50px;
+    background-color: rgb(193, 238, 193);
+}
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+

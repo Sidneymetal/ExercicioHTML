@@ -1,0 +1,46 @@
+.cabecalho{
+    max-width: 70%;
+    margin: auto;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 8px;  
+      
+}   
+.coluna1{
+    margin: 30px;    
+    max-width: 90vw;
+    float: left;
+}
+.coluna2{
+    margin: 30px;    
+    max-width: 90vw;
+    float: right;
+}
+.coluna3{
+    margin: 30px ;    
+    max-width: auto;
+    float: right;
+}
+.nome{
+    width: 50vh;
+    height: 300px;
+    margin: 1vw 1.5vw;    
+    background-color: aquamarine;    
+}
+.nome2{
+    width: 50vh;
+    height: 300px;
+    margin: 1vw 1.5vw;    
+    background-color: rgb(52, 220, 36);    
+}
+.nome3{
+    width: 50vh;
+    height: 300px;
+    margin: 1vw 1.5vw;    
+    background-color: rgb(199, 36, 220);    
+}
+body{
+    background-color: bisque;
+    width: auto;
+    height: auto;
+}

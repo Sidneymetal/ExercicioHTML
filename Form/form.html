@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Carro</title>
+    <link rel="stylesheet" type="text/css" href="styleform.css">
+</head>
+
+<body>
+    <div>
+        <h1>Formulário Carros</h1>
+    </div>
+    <div>
+        <h4>Informe dados do veículo:</h4>
+    </div>
+    <div>
+        <form>
+            <div>
+                <label>Modelo</label>
+                <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Corsa">
+            </div>
+            <div>
+                <label>Marca</label>
+                <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Chevrolet">
+            </div>
+            <div>
+                <label>Ano</label>
+                <input type="text" name="ano" id="anoCarro" placeholder="Ano Do Carro">
+            </div>
+            <div>
+                <label>Quilometragem</label>
+                <input type="text" name="kmCarro" id="kmCarro" placeholder="Apenas Números">
+            </div>
+            <div>
+                <label>Valor</label>
+                <input type="text" name="valorCarro" id="valorCarro" placeholder="Apenas Números">
+            </div>
+            <div>
+                <h4>Marque a condição do veículo:</h4>
+            </div>
+            <div>
+                <label>Novo</label>
+                <input type="radio" name="condVeiculo" value="novo">
+                <label>Usado</label>
+                <input type="radio" name="condVeiculo" value="usado">
+            </div>
+            <div>
+                <h4>Informe os acessórios do veículo:</h4>
+            </div>
+            <div>
+                <label for="check1">Airbag</label>
+                <input type="checkbox" name="acessorio" value="airbag">
+                <label for="check2">Alarme</label>
+                <input type="checkbox" name="acessorio" value="alarme">
+                <label for="check3">Ar condicionado</label>
+                <input type="checkbox" name="acessorio" value="arCondicionado">
+                <label for="check4">Vidro Elétrico</label>
+                <input type="checkbox" name="acessorio" value="vidroEletrico">
+                <label for="check5">Trava Elétrica</label>
+                <input type="checkbox" name="acessorio" value="travaEletrica">
+            </div>
+            <div>
+                <h4>Informe o final da placa:</h4>
+            </div>
+            <div>
+                <label for="finalPlaca">Número de 0 à 9</label>
+                <select name="cars" id="cars">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>                    
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -9,47 +9,53 @@
 </head>
 
 <body>
-    <div>
+    <div class="title">
         <h1>Formulário Carros</h1>
     </div>
-    <div>
+
+    <div class="subTitles">
         <h4>Informe dados do veículo:</h4>
     </div>
+
     <div>
         <form>
-            <div>
-                <label>Modelo</label>
-                <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Corsa">
+            <div class="note">
+                <div>
+                    <label>Modelo</label>
+                    <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Corsa">
+                </div>
+                <div>
+                    <label>Marca</label>
+                    <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Chevrolet">
+                </div>
+                <div>
+                    <label>Ano</label>
+                    <input type="text" name="ano" id="anoCarro" placeholder="Ano Do Carro">
+                </div>
+                <div>
+                    <label>Quilometragem</label>
+                    <input type="text" name="kmCarro" id="kmCarro" placeholder="Apenas Números">
+                </div>
+                <div>
+                    <label>Valor</label>
+                    <input type="text" name="valorCarro" id="valorCarro" placeholder="Apenas Números">
+                </div>
             </div>
-            <div>
-                <label>Marca</label>
-                <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Chevrolet">
-            </div>
-            <div>
-                <label>Ano</label>
-                <input type="text" name="ano" id="anoCarro" placeholder="Ano Do Carro">
-            </div>
-            <div>
-                <label>Quilometragem</label>
-                <input type="text" name="kmCarro" id="kmCarro" placeholder="Apenas Números">
-            </div>
-            <div>
-                <label>Valor</label>
-                <input type="text" name="valorCarro" id="valorCarro" placeholder="Apenas Números">
-            </div>
-            <div>
+
+            <div class="subTitles">
                 <h4>Marque a condição do veículo:</h4>
             </div>
-            <div>
+            <div class="note">
                 <label>Novo</label>
                 <input type="radio" name="condVeiculo" value="novo">
                 <label>Usado</label>
                 <input type="radio" name="condVeiculo" value="usado">
             </div>
-            <div>
+
+            <div class="subTitles">
                 <h4>Informe os acessórios do veículo:</h4>
             </div>
-            <div>
+            <div class="note">
                 <label for="check1">Airbag</label>
                 <input type="checkbox" name="acessorio" value="airbag">
                 <label for="check2">Alarme</label>
@@ -61,10 +67,11 @@
                 <label for="check5">Trava Elétrica</label>
                 <input type="checkbox" name="acessorio" value="travaEletrica">
             </div>
-            <div>
+            
+            <div class="subTitles">
                 <h4>Informe o final da placa:</h4>
             </div>
-            <div>
+            <div class="note">
                 <label for="finalPlaca">Número de 0 à 9</label>
                 <select name="cars" id="cars">
                     <option value="1">1</option>
@@ -75,7 +82,7 @@
                     <option value="6">6</option>
                     <option value="7">7</option>
                     <option value="8">8</option>
-                    <option value="9">9</option>                    
+                    <option value="9">9</option>
                 </select>
             </div>
             <br>

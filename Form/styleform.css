@@ -1,0 +1,23 @@
+input {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+.note {
+    background-color: aqua;
+}
+
+.title {
+    background-color: rgb(202, 71, 6);
+}
+
+.subTitles {
+    background-color: chartreuse;
+}
+
+body {
+    background-color: rgba(151, 147, 147, 0.866);
+    margin: 8px;
+}
